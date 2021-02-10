@@ -25,7 +25,7 @@ while True:
     # Read teh Text on Comment.txt line
     with open('Comment.txt') as c:
         myCommentList = c.read().splitlines()
-        d = randint(1, line_count)
+        d = randint(1, line_count-1)
         print(myCommentList[d])
 
     time.sleep(5)
